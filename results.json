@@ -1,0 +1,27 @@
+{
+  "test_read_data_data_types": {
+    "is_data_list": true,
+    "is_data_first_element_list": true,
+    "is_data_first_element_first_item_tuple": true
+  },
+  "test_read_data_len_train_data": {
+    "train_data_length": 9521
+  },
+  "test_generate_vocabs": {
+    "vocab_size": 18458,
+    "num_tags": 18
+  },
+  "test_hmm": {
+    "precision": 0.72,
+    "recall": 0.69,
+    "f1": 0.7
+  },
+  "test_embeddings_model": {
+    "precision": 0.71,
+    "recall": 0.67,
+    "f1": 0.67
+  },
+  "test_nltk_tagger": {
+    "accuracy": 0.96
+  }
+}
